@@ -1,1 +1,1 @@
-console.log('mantappu'):
+console.log('mantappu');
