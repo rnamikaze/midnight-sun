@@ -62,6 +62,7 @@ int main()
                 }else{
                     setc(7);
                 }
+
                 cout << "HAPPY 77TH INDONESIA INDEPENDENCE DAY" << endl;
             }
         }
@@ -94,6 +95,15 @@ int main()
     }
     sleepcp(1000);
     clear();
+
+    setc(79);
+    cout << "====HAPPY 77TH INDONESIA INDEPENDENCE DAY====" << endl;
+    sleepcp(200);
+    setc(124);
+    cout << "====SELAMAT HUT REPUBLIK INDONESIA KE 77=====" << endl;
+    sleepcp(200);
+    cout << endl;
+
     setc(7);
 
     for(int i = 1; i <= 14; i++){
@@ -121,6 +131,27 @@ int main()
         sleepcp(100);
     }
     setc(7);
+    cout << endl; sleepcp(200);
+    cout << "      ";
+    sleepcp(200);
+    setc(79);
+    cout << "17 AGUSTUS 1945";
+    sleepcp(200);
+    setc(7);
+    cout << " - ";
+    sleepcp(200);
+    setc(124);
+    cout << "17 AGUSTUS 2022";
+    sleepcp(200);
+    setc(7);
+    cout << "      " << endl;
+    cout << endl;
+    sleepcp(200);
+    setc(79);
+    cout << "====HAPPY 77TH INDONESIA INDEPENDENCE DAY====" << endl;
+    setc(124);
+    cout << "====SELAMAT HUT REPUBLIK INDONESIA KE 77=====" << endl;
+    setc(7);
     //myColor();
     //clear();
     char myname[] = {'R', 'Y', 'U', 'Z', 'E', 'N', ' ', 'N', 'A', 'M', 'I', 'K', 'A', 'Z', 'E'};
@@ -131,13 +162,13 @@ int main()
     cout << "            ";
     for(int i = 0; i <= 14; i++){
         cout << myname[i];
-        sleepcp(200);
+        sleepcp(150);
     }
     cout << endl;
     cout << "            ";
     for(int i = 0; i <= 8; i++){
         cout << greet[i];
-        sleepcp(250);
+        sleepcp(200);
     }
 }
 // ===================================================
